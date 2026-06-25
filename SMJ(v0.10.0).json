@@ -1,10 +1,10 @@
 {
 	"name": "SMJ",
 	"version": "0.10.0",
-	"worldkey": 1,
-	"gem": 33,
-	"sprout": 27,
-	"coin": 11090,
+	"worldkey": 2,
+	"gem": 4,
+	"sprout": 29,
+	"coin": 7460,
 	"forceLevel": "",
 	"features": {
 		"feature_zengarden": true,
@@ -36,53 +36,53 @@
 		"premium_unlock": true
 	},
 	"date": {
-		"date": 24,
+		"date": 25,
 		"month": 6,
 		"year": 2026,
-		"hour": 7,
-		"minute": 41,
-		"second": 46,
+		"hour": 9,
+		"minute": 19,
+		"second": 0,
 		"plantCostumeToday": [
 			{
 				"plantID": 36,
+				"costume": 0
+			},
+			{
+				"plantID": 1,
+				"costume": 0
+			},
+			{
+				"plantID": 5,
 				"costume": 1
 			},
 			{
-				"plantID": 30,
-				"costume": 3
-			},
-			{
-				"plantID": 61,
-				"costume": 0
-			},
-			{
-				"plantID": 12,
-				"costume": 0
-			},
-			{
-				"plantID": 6,
-				"costume": 0
-			},
-			{
-				"plantID": 12,
+				"plantID": 3,
 				"costume": 2
 			},
 			{
-				"plantID": 24,
-				"costume": 2
+				"plantID": 7,
+				"costume": 6
 			},
 			{
-				"plantID": 32,
+				"plantID": 1,
+				"costume": 7
+			},
+			{
+				"plantID": 8,
+				"costume": 1
+			},
+			{
+				"plantID": 0,
 				"costume": 1
 			}
 		]
 	},
-	"time": 1782258106776,
+	"time": 1782350340506,
 	"arcade_plant_decoding": {
 		"played_today": false,
 		"gem_today": 0,
-		"max_base_count": 10,
-		"max_code_count": 10
+		"max_base_count": 4,
+		"max_code_count": 4
 	},
 	"yeti_spawned_today": false,
 	"zombieProps": {
@@ -360,7 +360,7 @@
 			"progress": 0
 		},
 		"future_jetpack_disco": {
-			"progress": 0
+			"progress": 2
 		},
 		"future_imp": {
 			"progress": 2
@@ -369,13 +369,13 @@
 			"progress": 2
 		},
 		"disco_mech": {
-			"progress": 0
+			"progress": 2
 		},
 		"football_mech": {
-			"progress": 0
+			"progress": 2
 		},
 		"future_gargantuar": {
-			"progress": 0
+			"progress": 2
 		},
 		"zombossmech_future": {
 			"progress": 0
@@ -826,6 +826,9 @@
 		},
 		"chicken_pumpkin": {
 			"progress": 2
+		},
+		"future_infinut_shield": {
+			"progress": 2
 		}
 	},
 	"plantProps": {
@@ -854,8 +857,10 @@
 			"medal": false,
 			"progress": 1,
 			"tutorialLevel": 1,
-			"costume": -1,
-			"costumes": [],
+			"costume": 3,
+			"costumes": [
+				3
+			],
 			"boost": 0
 		},
 		"potatomine": {
@@ -914,9 +919,10 @@
 			"medal": false,
 			"progress": 2,
 			"tutorialLevel": 1,
-			"costume": 7,
+			"costume": 5,
 			"costumes": [
-				7
+				7,
+				5
 			],
 			"boost": 0
 		},
@@ -1084,8 +1090,8 @@
 		},
 		"jalapeno": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 1,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1175,15 +1181,15 @@
 		"citron": {
 			"medal": false,
 			"progress": 2,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"empea": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1214,16 +1220,16 @@
 		},
 		"holonut": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"magnifyinggrass": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1231,7 +1237,7 @@
 		"powerplant": {
 			"medal": false,
 			"progress": 0,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1239,7 +1245,7 @@
 		"powerplant_alpha": {
 			"medal": false,
 			"progress": 0,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1247,7 +1253,7 @@
 		"powerplant_beta": {
 			"medal": false,
 			"progress": 0,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1255,7 +1261,7 @@
 		"powerplant_gamma": {
 			"medal": false,
 			"progress": 0,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1263,7 +1269,7 @@
 		"powerplant_epsilon": {
 			"medal": false,
 			"progress": 0,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -1271,7 +1277,7 @@
 		"powerplant_delta": {
 			"medal": false,
 			"progress": 0,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -2451,7 +2457,7 @@
 			"enabled": true
 		},
 		"upgrade_8_slots": {
-			"progress": 0,
+			"progress": 1,
 			"enabled": true
 		},
 		"upgrade_manual_mowers_1": {
@@ -2666,7 +2672,7 @@
 			"progress": 0
 		},
 		"future20": {
-			"progress": 0
+			"progress": 1
 		},
 		"future28": {
 			"progress": 0
@@ -3362,7 +3368,7 @@
 			"progress": 4
 		},
 		"cowboy26": {
-			"progress": 1
+			"progress": 2
 		},
 		"cowboy27": {
 			"progress": 0
@@ -3425,19 +3431,19 @@
 			"progress": 4
 		},
 		"future7": {
-			"progress": 1
+			"progress": 4
 		},
 		"future8": {
-			"progress": 0
+			"progress": 4
 		},
 		"future9": {
-			"progress": 0
+			"progress": 4
 		},
 		"future10": {
-			"progress": 0
+			"progress": 4
 		},
 		"future10_1": {
-			"progress": 0
+			"progress": 1
 		},
 		"future10_2": {
 			"progress": 0
@@ -3449,31 +3455,31 @@
 			"progress": 0
 		},
 		"future11": {
-			"progress": 0
+			"progress": 4
 		},
 		"future12": {
-			"progress": 0
+			"progress": 4
 		},
 		"future13": {
-			"progress": 0
+			"progress": 4
 		},
 		"future14": {
-			"progress": 0
+			"progress": 4
 		},
 		"future15": {
-			"progress": 0
+			"progress": 4
 		},
 		"future16": {
-			"progress": 0
+			"progress": 4
 		},
 		"future17": {
-			"progress": 0
+			"progress": 4
 		},
 		"future18": {
-			"progress": 0
+			"progress": 4
 		},
 		"future19": {
-			"progress": 0
+			"progress": 4
 		},
 		"future21": {
 			"progress": 0
@@ -3521,7 +3527,7 @@
 			"progress": 0
 		},
 		"reinforce0": {
-			"progress": 0
+			"progress": 1
 		},
 		"reinforce1": {
 			"progress": 0
@@ -3561,9 +3567,6 @@
 				"unlocked": false
 			},
 			{
-				"unlocked": false
-			},
-			{
 				"unlocked": true
 			},
 			{
@@ -3582,10 +3585,13 @@
 				"unlocked": true
 			},
 			{
-				"unlocked": false
+				"unlocked": true
 			},
 			{
-				"unlocked": false
+				"unlocked": true
+			},
+			{
+				"unlocked": true
 			},
 			{
 				"unlocked": false
@@ -3953,10 +3959,10 @@
 				"ID": 98,
 				"inZen": 0,
 				"pos": 1,
-				"grownTime": 86463922,
-				"oldTime": 1782139992585,
+				"grownTime": 129614957,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 7657.661427460049,
+				"waterCD": 7216.1414684664205,
 				"waterLeftTime": -1,
 				"requirement": 2
 			},
@@ -3964,32 +3970,32 @@
 				"ID": 98,
 				"inZen": 0,
 				"pos": 2,
-				"grownTime": 86463321,
-				"oldTime": 1782139992585,
+				"grownTime": 129616806,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 7008.138555883226,
+				"waterCD": 8652.501940643542,
 				"waterLeftTime": -1,
-				"requirement": 2
+				"requirement": 3
 			},
 			{
 				"ID": 2,
 				"inZen": 0,
 				"pos": 3,
-				"grownTime": 86463736,
-				"oldTime": 1782139992585,
-				"stuck": false,
-				"waterCD": 9893.37516752932,
+				"grownTime": 129599999,
+				"oldTime": 1782312072774,
+				"stuck": true,
+				"waterCD": 0,
 				"waterLeftTime": -1,
-				"requirement": 3
+				"requirement": 2
 			},
 			{
 				"ID": 165,
 				"inZen": 0,
 				"pos": 11,
-				"grownTime": 86464033,
-				"oldTime": 1782139992585,
+				"grownTime": 129616321,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 9052.338982128613,
+				"waterCD": 7943.434639845783,
 				"waterLeftTime": -1,
 				"requirement": 3
 			},
@@ -3997,54 +4003,54 @@
 				"ID": 98,
 				"inZen": 0,
 				"pos": 10,
-				"grownTime": 64864872,
-				"oldTime": 1782139992585,
+				"grownTime": 108016511,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 7396.052714863624,
+				"waterCD": 8413.392528222914,
 				"waterLeftTime": -1,
-				"requirement": 1
+				"requirement": 3
 			},
 			{
 				"ID": 2,
 				"inZen": 0,
 				"pos": 9,
-				"grownTime": 64864578,
-				"oldTime": 1782139992585,
+				"grownTime": 108015511,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 8607.970849238365,
+				"waterCD": 9623.659564845088,
 				"waterLeftTime": -1,
-				"requirement": 1
+				"requirement": 2
 			},
 			{
 				"ID": 18,
 				"inZen": 0,
 				"pos": 8,
-				"grownTime": 64864293,
-				"oldTime": 1782139992585,
+				"grownTime": 108017899,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 8468.590290749453,
+				"waterCD": 9492.647113630483,
 				"waterLeftTime": -1,
-				"requirement": 1
+				"requirement": 3
 			},
 			{
 				"ID": 2,
 				"inZen": 0,
 				"pos": 0,
-				"grownTime": 86466663,
-				"oldTime": 1782139992585,
+				"grownTime": 129615194,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 7087.016216298819,
+				"waterCD": 9675.163507951354,
 				"waterLeftTime": -1,
-				"requirement": 3
+				"requirement": 2
 			},
 			{
 				"ID": 8,
 				"inZen": 0,
 				"pos": 5,
-				"grownTime": 21607164,
-				"oldTime": 1782139992585,
+				"grownTime": 64814868,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 9158.700070492778,
+				"waterCD": 9954.072182759797,
 				"waterLeftTime": -1,
 				"requirement": 1
 			},
@@ -4052,10 +4058,10 @@
 				"ID": 7,
 				"inZen": 0,
 				"pos": 4,
-				"grownTime": 21607770,
-				"oldTime": 1782139992585,
+				"grownTime": 64815528,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 7159.361923192154,
+				"waterCD": 8430.637826770813,
 				"waterLeftTime": -1,
 				"requirement": 1
 			},
@@ -4063,10 +4069,10 @@
 				"ID": 0,
 				"inZen": 0,
 				"pos": 12,
-				"grownTime": 21606925,
-				"oldTime": 1782139992585,
+				"grownTime": 64815103,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 9100.61096802978,
+				"waterCD": 8661.323240627757,
 				"waterLeftTime": -1,
 				"requirement": 1
 			},
@@ -4074,10 +4080,43 @@
 				"ID": 7,
 				"inZen": 0,
 				"pos": 13,
-				"grownTime": 21607479,
-				"oldTime": 1782139992585,
+				"grownTime": 64814233,
+				"oldTime": 1782312072774,
 				"stuck": false,
-				"waterCD": 7954.026971463614,
+				"waterCD": 8934.302432066936,
+				"waterLeftTime": -1,
+				"requirement": 1
+			},
+			{
+				"ID": 63,
+				"inZen": 0,
+				"pos": 7,
+				"grownTime": 0,
+				"oldTime": 1782312072774,
+				"stuck": true,
+				"waterCD": 0,
+				"waterLeftTime": -1,
+				"requirement": 1
+			},
+			{
+				"ID": 7,
+				"inZen": 0,
+				"pos": 14,
+				"grownTime": 0,
+				"oldTime": 1782312072774,
+				"stuck": true,
+				"waterCD": 0,
+				"waterLeftTime": -1,
+				"requirement": 1
+			},
+			{
+				"ID": 6,
+				"inZen": 0,
+				"pos": 15,
+				"grownTime": 0,
+				"oldTime": 1782312072774,
+				"stuck": true,
+				"waterCD": 0,
 				"waterLeftTime": -1,
 				"requirement": 1
 			}
@@ -4090,14 +4129,15 @@
 	"cardDecks": [],
 	"memoryPlantChoose": [
 		"wintermelon",
-		"cherry_bomb",
 		"potatomine",
-		"laser_bean",
 		"blover",
-		"twinsunflower",
-		"iceweed"
+		"cherry_bomb",
+		"iceburg",
+		"empea",
+		"jalapeno",
+		"citron"
 	],
-	"difficulty": 2,
+	"difficulty": 3,
 	"worldProps": {
 		"0": {
 			"unlocked": false,
@@ -4171,7 +4211,7 @@
 		"3": {
 			"unlocked": true,
 			"viewed": true,
-			"wmx": -6878.4506470075485,
+			"wmx": -6778.4506481615745,
 			"endlessProps": {
 				"level": 1,
 				"obtainedPlants": [],
@@ -4194,7 +4234,7 @@
 		"4": {
 			"unlocked": true,
 			"viewed": true,
-			"wmx": -918.8946705877399,
+			"wmx": -3793.5411480108864,
 			"endlessProps": {
 				"level": 1,
 				"obtainedPlants": [],
